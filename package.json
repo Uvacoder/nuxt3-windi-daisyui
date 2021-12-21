@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "daisyui": "^1.17.1",
+    "echarts": "^5.2.2",
+    "nuxt-windicss": "^2.1.1",
+    "vue-echarts": "^6.0.0"
+  }
+}
